@@ -2,6 +2,13 @@
   padding: 0 2rem;
 }
 
+.title {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -54,6 +61,10 @@
   margin: 4rem 0;
   line-height: 1.5;
   font-size: 1.5rem;
+}
+.message {
+  text-align: center;
+  font-family: Arial, sans-serif;
 }
 
 .code {
@@ -125,5 +136,16 @@
   }
   .logo img {
     filter: invert(1);
+  }
+  .videoPlayerWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+  }
+  .videoPlayer
+  {
+    width: 1000px;
+    height: 800px;
   }
 }
