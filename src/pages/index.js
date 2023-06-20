@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 const Home = () => {
   const currentDate = new Date();
-  const targetDate = new Date('2023-06-22T14:00:00+03:00'); // June 22, 2023, 2 PM GMT+3
+  const targetDate = new Date('2023-06-23T14:00:00+03:00'); // June 23, 2023, 2 PM GMT+3
 
   if (currentDate < targetDate) {
     return (
@@ -13,7 +13,7 @@ const Home = () => {
           <meta name="description" content="Metamorfoz" />
           <link rel="icon" href="/favicon.ico" />
         </Head> */}
-        <h2 className={styles.message}>Video 22 Haziran 14:00&apos;da aktif olacaktır.</h2>
+        <h2 className={styles.message}>Video 23 Haziran 14:00&apos;da aktif olacaktır.</h2>
       </div>
     );
   }
