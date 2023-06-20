@@ -5,7 +5,7 @@ const Home = () => {
   const currentDate = new Date();
   const targetDate = new Date('2023-06-22T14:00:00+03:00'); // June 22, 2023, 2 PM GMT+3
 
-  if (currentDate > targetDate) {
+  if (currentDate < targetDate) {
     return (
       <div className={styles.container}>
         {/* <Head>
