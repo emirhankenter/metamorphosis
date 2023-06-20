@@ -2,8 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 
 const Home = () => {
-  const currentDate = new Date();
-  const targetDate = new Date('2023-06-22T14:00:00+03:00'); // June 22, 2023, 2 PM GMT+3
+  // const currentDate = new Date();
+  // const targetDate = new Date('2023-06-22T14:00:00+03:00'); // June 22, 2023, 2 PM GMT+3
 
   // if (currentDate > targetDate) {
   //   return (
@@ -19,7 +19,7 @@ const Home = () => {
   // }
 
   return (
-    <div className={styles.container}>
+    <>
       <Head>
         <h1 className={styles.title}>Metamorfoz</h1>
         <meta name="description" content="Metamorfoz" />
@@ -31,7 +31,7 @@ const Home = () => {
           Your browser does not support the video tag.
         </video>
       </div>
-    </div>
+    </>
   );
 }
 
